@@ -17,3 +17,9 @@ def solution(myString, pat):
         return 1
     else:
         return 0
+
+## 리스트로 형성한 후 
+        - for문확인 mystring을 그냥 넣고 실행가능
+        - 리스트를 문자열로 변환하는 방법 -> 위식은 각 리스트마다 ''을 삽입(여백 x)
+        ex) ",".join('abcd) -> 'a,b,c,d' 문자열 삽입
+        
