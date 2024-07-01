@@ -6,6 +6,9 @@ def solution(str_list, ex):
     for s in str_list:
         if ex not in s:
             filtered_list.append(s)
+
+    ##
+    -> filtered_list = [s for s in str_list if ex not in s] 이와같이 식 단축화 가능
     
     # 리스트의 문자열을 하나로 합침
     result = ''.join(filtered_list)
